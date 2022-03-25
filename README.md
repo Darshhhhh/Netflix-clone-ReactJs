@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+## Live Project :
+> https://netflix-clone-92bcb.web.app/
+
+## Note :
+- You need to add your firebase config files to access your firebase account
 
 ## Available Scripts
 
