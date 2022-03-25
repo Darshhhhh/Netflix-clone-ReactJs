@@ -1,0 +1,103 @@
+.LoginScreen {
+  position: relative;
+  height: 100%;
+  /* background: url("http://mppmduse2pmpovwapp.azurewebsites.net/wp-content/uploads/2019/09/netflix-background-9.jpg")
+    center no-repeat;
+  background-size: cover; */
+  background: url("https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png")
+    center no-repeat;
+  background-size: cover;
+}
+.LoginScreen_logo {
+  position: fixed;
+  left: 0;
+  /* top: 20px; */
+  width: 150px;
+  object-fit: contain;
+  padding-left: 10px;
+}
+.LoginScreen_button {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #ffff;
+  background-color: red;
+  border-radius: 0.2rem;
+  border: none;
+  cursor: pointer;
+}
+.LoginScreen_body {
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+.LoginScreen_body > h1 {
+  font-size: 3.125rem;
+  margin-bottom: 15px;
+  /* text-transform: uppercase; */
+}
+.LoginScreen_body > h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.LoginScreen_body > h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.LoginScreen_gradient {
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0) 150%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.LoginScreen_input > form > input {
+  padding: 10px;
+  outline-width: 0;
+  height: 30px;
+  width: 30%;
+  border: none;
+  max-width: 600px;
+  border-radius: 0.2rem;
+}
+.LoginScreen_input {
+  margin: 20px;
+}
+.loginScreen_getStarted {
+  padding: 16px 20px;
+  font-size: 1rem;
+  color: #ffff;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  margin-left: 10px;
+  border-radius: 0.2rem;
+}
+.loginScreen_getStarted:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  transition: all 0.3s;
+  transform: scale(1.06);
+}
+.LoginScreen_button:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  transition: all 0.3s;
+  transform: scale(1.06);
+}
